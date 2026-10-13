@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Seis ejes · Plan de Gobierno ASAB 2027–2030</title>
+  <meta name="description" content="Conoce los seis ejes del Plan de Gobierno de César Augusto Villamil Medina para la Facultad de Artes ASAB, 2027–2030.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .ejes-portada {
+      padding: 65px 0 80px;
+    }
+
+    .ejes-intro {
+      max-width: 760px;
+      margin: 20px 0 35px;
+      line-height: 1.7;
+    }
+
+    .ejes-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 22px;
+      margin-top: 35px;
+    }
+
+    .eje-enlace {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 250px;
+      padding: 22px;
+      color: var(--negro, #111510);
+      background: var(--papel, #fafaf4);
+      border: 4px solid var(--negro, #111510);
+      box-shadow: 6px 6px 0 var(--verde, #376b16);
+      text-decoration: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .eje-enlace:hover {
+      transform: translateY(-5px);
+      box-shadow: 10px 10px 0 var(--verde, #376b16);
+    }
+
+    .eje-enlace:focus-visible {
+      outline: 3px solid var(--verde, #376b16);
+      outline-offset: 5px;
+    }
+
+    .eje-numero {
+      display: block;
+      margin-bottom: 22px;
+      color: var(--verde, #376b16);
+      font-size: 3.6rem;
+      font-weight: 900;
+      line-height: 1;
+      letter-spacing: -0.07em;
+    }
+
+    .eje-enlace h2 {
+      margin: 0 0 12px;
+      font-size: clamp(1.2rem, 2vw, 1.65rem);
+      line-height: 1.15;
+      text-transform: uppercase;
+    }
+
+    .eje-enlace p {
+      margin: 0 0 25px;
+      line-height: 1.5;
+    }
+
+    .eje-ir {
+      display: inline-block;
+      align-self: flex-start;
+      padding-bottom: 5px;
+      border-bottom: 3px solid var(--verde, #376b16);
+      font-weight: 900;
+    }
+
+    .ejes-volver {
+      margin-top: 45px;
+    }
+
+    @media (max-width: 900px) {
+      .ejes-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 560px) {
+      .ejes-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .eje-enlace {
+        min-height: 210px;
+      }
+
+      .ejes-portada {
+        padding: 40px 0 55px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .eje-enlace {
+        transition: none;
+      }
+    }
+  </style>
+</head>
+
+<body class="interior">
+
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <!-- NAVEGACIÓN -->
+  <header class="nav">
+    <div class="contenedor">
+
+      <a class="logo" href="index.html"
+         aria-label="Volver al inicio del Plan de Gobierno">
+        <img
+          src="https://imgproxy.domestika.org/unsafe/s:200:200/rs:fit/ex:true/el:true/plain/src://school-logos/000/016/209/16209-original.jpg?1582763024"
+          alt="Logo de la Facultad de Artes ASAB"
+          width="60"
+          height="57"
+        >
+        <span>Plan de Gobierno<br>2027–2030</span>
+      </a>
+
+      <nav aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="proposito.html">Propósito</a></li>
+          <li><a href="ejes.html" aria-current="page">Seis ejes</a></li>
+          <li><a href="gestion.html">Gestión y resultados</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- CONTENIDO: SEIS EJES -->
+  <main id="contenido">
+
+    <section class="pagina-cabecera" aria-labelledby="titulo-ejes">
+      <div class="ornamento" aria-hidden="true"></div>
+
+      <div class="contenedor">
+        <div class="texto">
+          <span class="etiqueta">Plan de Gobierno · 2027–2030</span>
+
+          <h1 id="titulo-ejes" class="titulo t-xxl">
+            Seis ejes para transformar la ASAB
+          </h1>
+
+          <p class="ejes-intro">
+            Una propuesta construida desde el reconocimiento de la Facultad,
+            sus necesidades y sus posibilidades. Explora cada eje para conocer
+            sus objetivos y compromisos.
+          </p>
+
+          <a class="boton vuelta" href="index.html">
+            ← Volver al inicio
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="ejes-portada" aria-label="Selecciona un eje">
+      <div class="contenedor">
+
+        <div class="ejes-grid">
+
+          <!-- EJE 1 -->
+          <a class="eje-enlace" href="eje1.html">
+            <div>
+              <span class="eje-numero">01</span>
+              <h2>Comunidad</h2>
+              <p>Una ASAB que escucha y construye comunidad.</p>
+            </div>
+            <span class="eje-ir">Explorar el eje →</span>
+          </a>
+
+          <!-- EJE 2 -->
+          <a class="eje-enlace" href="eje2.html">
+            <div>
+              <span class="eje-numero">02</span>
+              <h2>Calidad académica</h2>
+              <p>Calidad académica, innovación y articulación.</p>
+            </div>
+            <span class="eje-ir">Explorar el eje →</span>
+          </a>
+
+          <!-- EJE 3 -->
+          <a class="eje-enlace" href="eje3.html">
+            <div>
+              <span class="eje-numero">03</span>
+              <h2>Investigación-creación</h2>
+              <p>Investigación-creación y circulación.</p>
+            </div>
+            <span class="eje-ir">Explorar el eje →</span>
+          </a>
+
+          <!-- EJE 4 -->
+          <a class="eje-enlace" href="eje4.html">
+            <div>
+              <span class="eje-numero">04</span>
+              <h2>Espacios dignos</h2>
+              <p>Espacios dignos para aprender, enseñar y crear.</p>
+            </div>
+            <span class="eje-ir">Explorar el eje →</span>
+          </a>
+
+          <!-- EJE 5 -->
+          <a class="eje-enlace" href="eje5.html">
+            <div>
+              <span class="eje-numero">05</span>
+              <h2>Bienestar y buen vivir</h2>
+              <p>Dignificación de la vida universitaria.</p>
+            </div>
+            <span class="eje-ir">Explorar el eje →</span>
+          </a>
+
+          <!-- EJE 6 -->
+          <a class="eje-enlace" href="eje6.html">
+            <div>
+              <span class="eje-numero">06</span>
+              <h2>Una ASAB abierta al mundo</h2>
+              <p>Una Facultad conectada con Bogotá, Colombia y el mundo.</p>
+            </div>
+            <span class="eje-ir">Explorar el eje →</span>
+          </a>
+
+        </div>
+
+        <div class="ejes-volver">
+          <a class="boton claro" href="index.html">
+            Volver a la portada
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="pie-pagina">
+    <div class="contenedor">
+
+      <div>
+        <img
+          class="logo-pie"
+          src="https://imgproxy.domestika.org/unsafe/s:200:200/rs:fit/ex:true/el:true/plain/src://school-logos/000/016/209/16209-original.jpg?1582763024"
+          alt="Logo de la Facultad de Artes ASAB"
+          width="88"
+          height="83"
+        >
+
+        <strong>Plan de Gobierno 2027–2030</strong>
+
+        <p>
+          César Augusto Villamil Medina · Facultad de Artes ASAB,
+          Universidad Distrital Francisco José de Caldas
+        </p>
+      </div>
+
+      <nav aria-label="Mapa del sitio">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="proposito.html">Propósito</a></li>
+          <li><a href="eje1.html">Eje 1</a></li>
+          <li><a href="eje2.html">Eje 2</a></li>
+          <li><a href="eje3.html">Eje 3</a></li>
+          <li><a href="eje4.html">Eje 4</a></li>
+          <li><a href="eje5.html">Eje 5</a></li>
+          <li><a href="eje6.html">Eje 6</a></li>
+          <li><a href="gestion.html">Gestión y resultados</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </footer>
+
+</body>
+</html>

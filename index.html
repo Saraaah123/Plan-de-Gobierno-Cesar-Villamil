@@ -135,7 +135,7 @@
       margin-bottom: 25px;
     }
 
-    /* BOTONES */
+    /* BOTONES DE NAVEGACIÓN */
     .hero .acciones {
       order: 6;
       display: flex;
@@ -144,6 +144,14 @@
       width: 100%;
       margin-top: 15px;
       margin-bottom: 40px;
+    }
+
+    .hero .acciones .boton {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      cursor: pointer;
     }
 
     @media (max-width: 600px) {
@@ -164,6 +172,17 @@
 
       .distintivo-33 {
         margin: 20px 0;
+      }
+
+      .hero .acciones {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+      }
+
+      .hero .acciones .boton {
+        width: 100%;
+        box-sizing: border-box;
       }
     }
   </style>
@@ -285,6 +304,10 @@
             Explora el plan →
           </a>
 
+          <a class="boton" href="gestion.html">
+            Gestión y resultados →
+          </a>
+
         </div>
 
       </div>
@@ -294,4 +317,6 @@
 
 </body>
 </html>
+
+
 
