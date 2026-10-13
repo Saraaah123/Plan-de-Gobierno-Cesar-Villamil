@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -64,72 +63,45 @@
       line-height: 1.5;
     }
 
-    /* DISTINTIVO DEL CANDIDATO */
-    .distintivo-33 {
+    /* ETIQUETA "VOTA NÚMERO 33" (una sola vez, pequeña) */
+    .voto-33 {
       order: 3;
-      display: flex;
+      display: inline-flex;
       align-items: center;
       gap: 12px;
-      width: 100%;
+      width: fit-content;
+      max-width: 100%;
       box-sizing: border-box;
-      margin: 25px 0;
-      padding: 15px 20px;
-      border: 2px solid #376b16;
+      margin: 18px 0 8px;
+      padding: 8px 10px 8px 20px;
+      background: #376b16;
+      color: #fffdf5;
+      border: 3px solid #111611;
       border-radius: 50px;
-      color: #376b16;
+      box-shadow: 5px 5px 0 #193b17;
       font-size: 0.9rem;
       font-weight: 800;
-      letter-spacing: 0.1em;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
     }
 
-    .distintivo-33 strong {
-      font-size: 2rem;
-      letter-spacing: -0.06em;
-    }
-
-    /* BLOQUE VOTA 33 */
-    .campana-33 {
-      order: 4;
-      display: flex;
+    .voto-33 strong {
+      display: inline-flex;
       align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-      width: min(100%, 500px);
-      box-sizing: border-box;
-      margin: 35px auto;
-      padding: 30px;
-      background: #376b16;
-      color: #fffdf5;
-      border-radius: 4px;
-      box-shadow: 9px 9px 0 #193b17;
-      transform: rotate(-1deg);
-    }
-
-    .campana-33 .vota-texto {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      font-size: clamp(1.8rem, 4vw, 2.8rem);
-      font-weight: 900;
-      line-height: 1;
-    }
-
-    .campana-33 .vota-texto small {
-      font-size: 0.7rem;
-      letter-spacing: 0.08em;
-    }
-
-    .campana-33 .vota-numero {
-      font-size: clamp(5rem, 12vw, 8rem);
-      font-weight: 900;
-      line-height: 0.85;
-      letter-spacing: -0.1em;
+      justify-content: center;
+      min-width: 3.2rem;
+      padding: 2px 14px;
+      background: #a9cc3d;
+      color: #111611;
+      border-radius: 50px;
+      font-size: 1.7rem;
+      letter-spacing: -0.04em;
+      line-height: 1.2;
     }
 
     /* LEMA */
     .hero .lema {
-      order: 5;
+      order: 4;
       width: 100%;
       margin-top: 20px;
       margin-bottom: 25px;
@@ -137,7 +109,7 @@
 
     /* BOTONES DE NAVEGACIÓN */
     .hero .acciones {
-      order: 6;
+      order: 5;
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
@@ -164,14 +136,10 @@
         height: 48px;
       }
 
-      .campana-33 {
-        padding: 22px;
-        gap: 15px;
-        margin: 30px auto;
-      }
-
-      .distintivo-33 {
-        margin: 20px 0;
+      .voto-33 {
+        font-size: 0.8rem;
+        gap: 10px;
+        padding: 6px 8px 6px 16px;
       }
 
       .hero .acciones {
@@ -269,23 +237,9 @@
           </small>
         </p>
 
-        <!-- NÚMERO DEL CANDIDATO -->
-        <div class="distintivo-33">
-          Candidato número <strong>33</strong>
-        </div>
-
-        <!-- VOTA 33 -->
-        <div class="campana-33" aria-label="Vota por el número 33">
-
-          <div class="vota-texto">
-            <small>PLAN DE GOBIERNO 2027–2030</small>
-            VOTA
-          </div>
-
-          <div class="vota-numero">
-            33
-          </div>
-
+        <!-- VOTA NÚMERO 33 -->
+        <div class="voto-33" aria-label="Vota número 33">
+          Vota número <strong>33</strong>
         </div>
 
         <!-- LEMA -->
@@ -317,6 +271,3 @@
 
 </body>
 </html>
-
-
-

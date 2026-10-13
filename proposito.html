@@ -6,224 +6,85 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>1. Propósito · Plan de Gobierno ASAB 2027–2030</title>
   <meta name="description" content="Propósito del Plan de Gobierno de la Facultad de Artes ASAB 2027–2030.">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="style.css">
-
   <style>
-    .simbolos .icono-comunidad {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      min-height: 120px;
-      margin-bottom: 12px;
-    }
-
-    .simbolos .icono-comunidad img {
-      display: block;
-      width: 110px;
-      height: 110px;
-      object-fit: contain;
-    }
+    /* Propósito: composición propia de esta página */
+    .proposito-pagina .parrafo-gran { max-width: 74rem; gap: clamp(1.5rem, 4vw, 3rem); }
+    .proposito-pagina .pp-apertura { max-width: 60rem; }
+    .proposito-pagina .pp-dos { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.2rem, 3vw, 2rem); align-items: stretch; }
+    .proposito-pagina .pp-dos p { background: #fff; border: 4px solid var(--negro); padding: clamp(1.3rem, 3vw, 2.2rem); font-size: clamp(1.1rem, 1.7vw, 1.3rem); line-height: 1.7; }
+    .proposito-pagina .pp-dos p:nth-child(1) { box-shadow: 9px 9px 0 var(--rojo); }
+    .proposito-pagina .pp-dos p:nth-child(2) { box-shadow: 9px 9px 0 var(--amarillo); }
+    .proposito-pagina .pp-banner { max-width: none; text-align: center; padding: clamp(1.6rem, 5vw, 3.2rem); }
+    .proposito-pagina .pp-cierre { background: var(--papel-2); border: 4px solid var(--negro); border-left-width: 14px; border-left-color: var(--rojo); padding: clamp(1.3rem, 3vw, 2.4rem); max-width: 62rem; margin-left: auto; font-size: clamp(1.15rem, 2vw, 1.5rem); line-height: 1.65; }
+    .proposito-pagina .pp-cierre .resalte { background: var(--amarillo); padding: 0 .2em; font-weight: 700; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+    @media (max-width: 820px) { .proposito-pagina .pp-dos { grid-template-columns: 1fr; } .proposito-pagina .pp-cierre { margin-left: 0; } }
   </style>
 </head>
-
 <body class="interior">
-
   <a class="saltar" href="#contenido">Saltar al contenido</a>
-
   <header class="nav">
     <div class="contenedor">
-
-      <a class="logo" href="index.html" aria-label="Facultad de Artes ASAB, Plan de Gobierno 2027–2030, ir al inicio">
-        <img
-          src="https://imgproxy.domestika.org/unsafe/s:200:200/rs:fit/ex:true/el:true/plain/src://school-logos/000/016/209/16209-original.jpg?1582763024"
-          alt="Logo de la Facultad de Artes ASAB"
-          width="60"
-          height="57"
-        >
-        <span>Plan de Gobierno<br>2027–2030</span>
-      </a>
-
-      <nav aria-label="Navegación principal">
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="proposito.html" aria-current="page">Propósito</a></li>
-          <li><a href="index.html#ejes">Seis ejes</a></li>
-          <li><a href="gestion.html">Gestión y resultados</a></li>
-        </ul>
-      </nav>
-
+      <a class="logo" href="index.html" aria-label="Facultad de Artes ASAB, Plan de Gobierno 2027–2030, ir al inicio"><img src="https://imgproxy.domestika.org/unsafe/s:200:200/rs:fit/ex:true/el:true/plain/src://school-logos/000/016/209/16209-original.jpg?1582763024" alt="Logo de la Facultad de Artes ASAB" width="60" height="57"><span>Plan de Gobierno<br>2027–2030</span></a>
+      <nav aria-label="Navegación principal"><ul><li><a href="index.html">Inicio</a></li><li><a href="proposito.html" aria-current="page">Propósito</a></li><li><a href="index.html#ejes">Seis ejes</a></li><li><a href="gestion.html">Gestión y resultados</a></li></ul></nav>
     </div>
   </header>
 
   <main id="contenido" class="proposito-pagina">
-
-    <section
-      class="pagina-cabecera"
-      style="--a1:var(--rojo);--a2:var(--amarillo);--a3:var(--azul);--fondo:var(--amarillo)"
-      aria-labelledby="t-prop"
-    >
+    <section class="pagina-cabecera" style="--a1:var(--rojo);--a2:var(--amarillo);--a3:var(--azul);--fondo:var(--amarillo)" aria-labelledby="t-prop">
       <div class="ornamento" aria-hidden="true"></div>
-
       <div class="contenedor">
-
         <div class="texto">
           <span class="etiqueta eje-etiqueta">Plan de Gobierno 2027–2030</span>
           <h1 id="t-prop" class="titulo t-xxl">1. Propósito</h1>
           <a class="boton vuelta" href="index.html">Volver al inicio</a>
         </div>
-
         <div class="visual" aria-hidden="true">
-          <div class="art art-1" style="--ink:var(--negro)">
-            <i></i><i></i><i></i><i></i><i></i><i></i>
-          </div>
+          <div class="art art-1" style="--ink:var(--negro)"><i></i><i></i><i></i><i></i><i></i><i></i></div>
         </div>
-
       </div>
     </section>
 
     <section class="lectura" aria-label="Texto del propósito">
       <div class="contenedor">
-
         <div class="parrafo-gran">
-
-          <p class="destacado d1">
-            La Facultad de Artes ASAB tiene una historia, una identidad y un patrimonio académico y artístico que debemos proteger, fortalecer y proyectar hacia el futuro.
-          </p>
-
-          <p class="cuerpo">
-            Este Plan de Gobierno parte de una convicción: la transformación de la ASAB debe construirse con su comunidad y desde el reconocimiento de sus realidades.
-          </p>
-
-          <p class="cuerpo alt">
-            Nuestro propósito es consolidar una Facultad pública, plural, crítica, creativa y comprometida con Bogotá, Colombia y el mundo, fortaleciendo sus procesos académicos, artísticos, de investigación-creación, administrativos y de bienestar mediante una gestión cercana, participativa, transparente y orientada a resultados.
-          </p>
-
-          <p class="destacado d2">
-            No se trata de empezar de cero ni de desconocer lo construido.
-          </p>
-
-          <p class="cuerpo alt2">
-            Se trata de reconocer lo que funciona, corregir lo que debe cambiar y abrir nuevas posibilidades para la Facultad. Queremos construir sobre lo construido y convertir las necesidades de la comunidad en acciones concretas, viables y verificables.
-          </p>
-
+          <p class="destacado d1 pp-apertura">La Facultad de Artes ASAB tiene una historia, una identidad y un patrimonio académico y artístico que debemos proteger, fortalecer y proyectar hacia el futuro.</p>
+          <div class="pp-dos">
+            <p>Este Plan de Gobierno parte de una convicción: la transformación de la ASAB debe construirse con su comunidad y desde el reconocimiento de sus realidades.</p>
+            <p>Nuestro propósito es consolidar una Facultad pública, plural, crítica, creativa y comprometida con Bogotá, Colombia y el mundo, fortaleciendo sus procesos académicos, artísticos, de investigación-creación, administrativos y de bienestar mediante una gestión cercana, participativa, transparente y orientada a resultados.</p>
+          </div>
+          <p class="destacado d2 pp-banner">No se trata de empezar de cero ni de desconocer lo construido.</p>
+          <p class="pp-cierre">Se trata de reconocer lo que funciona, corregir lo que debe cambiar y abrir nuevas posibilidades para la Facultad. Queremos <span class="resalte">construir sobre lo construido</span> y convertir las necesidades de la comunidad en <span class="resalte">acciones concretas, viables y verificables</span>.</p>
         </div>
-
-        <!-- SÍMBOLOS DEL PROPÓSITO -->
-        <ul class="simbolos" aria-label="Ideas del propósito">
-
-          <!-- COMUNIDAD: NUEVA IMAGEN -->
-          <li style="display:contents">
-            <figure>
-
-              <div class="icono-comunidad">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/8171/8171609.png"
-                  alt="Símbolo de comunidad"
-                  width="110"
-                  height="110"
-                  loading="lazy"
-                >
-              </div>
-
-              <figcaption>Comunidad</figcaption>
-
-            </figure>
-          </li>
-
-          <!-- PLURALIDAD -->
-          <li style="display:contents">
-            <figure>
-              <div class="mini m-pluralidad" aria-hidden="true">
-                <i></i><i></i><i></i><i></i><i></i>
-              </div>
-              <figcaption>Pluralidad</figcaption>
-            </figure>
-          </li>
-
-          <!-- CREACIÓN -->
-          <li style="display:contents">
-            <figure>
-              <div class="mini m-creacion" aria-hidden="true"></div>
-              <figcaption>Creación</figcaption>
-            </figure>
-          </li>
-
-          <!-- TRANSFORMACIÓN -->
-          <li style="display:contents">
-            <figure>
-              <div class="mini m-transforma" aria-hidden="true">
-                <i></i><i></i><i></i>
-              </div>
-              <figcaption>Transformación</figcaption>
-            </figure>
-          </li>
-
-        </ul>
-
       </div>
     </section>
 
     <section class="navegar" aria-label="Continuar la lectura">
       <div class="contenedor">
-
-        <a class="paso vacio" href="index.html" tabindex="-1" aria-hidden="true">
-          <small>&nbsp;</small>
-          <span>&nbsp;</span>
-        </a>
-
-        <div class="centro">
-          <a class="boton claro vuelta" href="index.html">Volver al inicio</a>
-        </div>
-
-        <a class="paso sig" href="eje1.html">
-          <small>Siguiente · Eje 1</small>
-          <span>Una ASAB que escucha y construye comunidad</span>
-        </a>
-
+        <a class="paso vacio" href="index.html" tabindex="-1" aria-hidden="true"><small>&nbsp;</small><span>&nbsp;</span></a>
+        <div class="centro"><a class="boton claro vuelta" href="index.html">Volver al inicio</a></div>
+        <a class="paso sig" href="eje1.html"><small>Siguiente · Eje 1</small><span>Una ASAB que escucha y construye comunidad</span></a>
       </div>
     </section>
-
   </main>
-
   <footer class="pie-pagina">
     <div class="contenedor">
-
       <div>
-        <img
-          class="logo-pie"
-          src="https://imgproxy.domestika.org/unsafe/s:200:200/rs:fit/ex:true/el:true/plain/src://school-logos/000/016/209/16209-original.jpg?1582763024"
-          alt="Logo de la Facultad de Artes ASAB"
-          width="88"
-          height="83"
-        >
-
+        <img class="logo-pie" src="https://imgproxy.domestika.org/unsafe/s:200:200/rs:fit/ex:true/el:true/plain/src://school-logos/000/016/209/16209-original.jpg?1582763024" alt="Logo de la Facultad de Artes ASAB" width="88" height="83">
         <strong>Plan de Gobierno 2027–2030</strong>
-
-        <p>
-          César Augusto Villamil Medina · Facultad de Artes ASAB, Universidad Distrital Francisco José de Caldas
-        </p>
+        <p>César Augusto Villamil Medina · Facultad de Artes ASAB, Universidad Distrital Francisco José de Caldas</p>
       </div>
-
       <nav aria-label="Mapa del sitio">
         <ul>
           <li><a href="index.html">Inicio</a></li>
           <li><a href="proposito.html">Propósito</a></li>
-          <li><a href="eje1.html">Eje 1</a></li>
-          <li><a href="eje2.html">Eje 2</a></li>
-          <li><a href="eje3.html">Eje 3</a></li>
-          <li><a href="eje4.html">Eje 4</a></li>
-          <li><a href="eje5.html">Eje 5</a></li>
-          <li><a href="eje6.html">Eje 6</a></li>
+          <li><a href="eje1.html">Eje 1</a></li><li><a href="eje2.html">Eje 2</a></li><li><a href="eje3.html">Eje 3</a></li><li><a href="eje4.html">Eje 4</a></li><li><a href="eje5.html">Eje 5</a></li><li><a href="eje6.html">Eje 6</a></li>
           <li><a href="gestion.html">Gestión y resultados</a></li>
         </ul>
       </nav>
-
     </div>
   </footer>
-
 </body>
 </html>
